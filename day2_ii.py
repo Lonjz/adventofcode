@@ -3,7 +3,6 @@ arrays = []
 def isValid(arr):
     last = 0
     diff = 0
-    badcount = 0
     for i in arr:
         entry = int(i)
         if last == 0:
@@ -36,5 +35,3 @@ for arr in arrays:
                 break
 
 print(answer)
-
-
